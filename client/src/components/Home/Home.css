@@ -34,8 +34,6 @@
 	margin-right: 1vw;
 }
 
-
-
 .search-results {
 	display: flex;
 	justify-content: center;
@@ -53,9 +51,6 @@
 	margin-bottom: 2vh;
 	overflow-y: hidden;
 	border-radius: 7px;
-	
-	/* border: 2px solid black; */
-
 }
 
 a {
@@ -92,7 +87,6 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* background-color: rgb(54, 54, 54); */
 	border-radius: 7px;
 	width: 100%;
 }
@@ -105,7 +99,6 @@ a:hover {
 .movie-title {
     text-align: center;
     color: white;
-    /* margin-top: 1vh; */
     font-size: 20px;
     font-weight: 800;
     margin-left: 1vw;
@@ -127,11 +120,8 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* border: 2px solid black; */
 	border-radius: 7px;
 	width: 200px;
-	
-	/* height: 60vh; */
 	margin-left: 1vw;
 	margin-bottom: 2vh;
 }
