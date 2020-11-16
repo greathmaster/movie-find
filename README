@@ -1,0 +1,25 @@
+Movie Find
+
+Description
+------------
+Movie Find is a simple movie discovery app built using React and Node. It has no database, but uses The Movie Database (TMDB) API to access movie information.
+
+Installation
+-------------
+To install server dependencies inside the main folder run:
+npm install
+
+Additionally, to install frontend dependencies, inside the client folder run:
+npm install
+
+You will need to create a file called "keys_dev.js" inside the /config folder and add the following information:
+
+const API_KEY = "";	   //your api key for TMDB
+const BASE_URL = "";   // the TMDB api base url Ex: "https://api.themoviedb.org/3";
+const HOME_URL = "";   //server localhost url. Ex: "http://localhost:4000"
+
+Additionally, you will need to update the client/config/constants.js information if you localhost is running on a different port than 4000
+
+Finally, 
+* run "npm start" in the main folder and ALSO 
+* run "npm start" in the client folder
