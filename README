@@ -18,7 +18,7 @@ const API_KEY = "";	   //your api key for TMDB
 const BASE_URL = "";   // the TMDB api base url Ex: "https://api.themoviedb.org/3";
 const HOME_URL = "";   //server localhost url. Ex: "http://localhost:4000"
 
-Additionally, you will need to update the client/config/constants.js information if you localhost is running on a different port than 4000
+Additionally, you will need to update the client/src/config/constants.js information if you localhost is running on a different port than 4000
 
 Finally, 
 * run "npm start" in the main folder and ALSO 
